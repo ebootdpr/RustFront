@@ -1,11 +1,5 @@
-use yew::prelude::*;
-
-#[function_component(App)]
-fn app() -> Html {
- html! {
-    <h1>{"Za Waruudo!"}</h1>
- }
-}
+mod app;
+use app::App;
 
 fn main() {
     yew::Renderer::<App>::new().render();
